@@ -5,6 +5,8 @@ body {
 
 video {
     object-fit: contain;
+    position: relative;
+    
 }
 
 header-overlay {
