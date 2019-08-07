@@ -1,13 +1,14 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, verdana, sansserif;
   text-align: center;
+  background-color: black;
 }
 
 video {
     object-fit: contain;
 }
 
-header-overlay {
+.header-overlay {
     height: 100vh;
     width: 100vw;
     position: absolute;
@@ -22,3 +23,12 @@ header-overlay {
     display: flex;
     align-items: center;
     color: #fff;
+  }
+
+.fullscreen-video-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  heihgt: 100%;
+}
