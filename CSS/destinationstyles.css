@@ -13,9 +13,9 @@
 
 .logotext {
   position: absolute;
+  margin: auto;
+  display: block;
   text-align: center;
-  top: 250px;
-  left:390px;
   color; white;
 }
 
@@ -29,4 +29,8 @@
 font {
   color: white;
   background-color: red;
+}
+
+.col- {
+  margin-left: 70px;
 }
