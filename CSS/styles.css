@@ -1,11 +1,39 @@
 body {
+  margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, verdana, sansserif;
-  text-align: center;
-  background-color: black;
+  font-size: 1rem;
+  line-height: 1.5
+  color:#333;
+  overflow-x: hidden;
+  display: block;
+  margin: 8px;
+}
+
+.container {
+    max-width: 960px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: auto;
+    text-align: center;
 }
 
 video {
     object-fit: contain;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.fullscreen-video-wrap{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100vh;
+  overflow: visible;
+}
+.fullscreen-video-wrap{
+  min-width: 100%;
+  min-height: 100%;
 }
 
 .header-overlay {
@@ -25,10 +53,38 @@ video {
     color: #fff;
   }
 
-.fullscreen-video-wrap {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  heihgt: 100%;
+.header-content h1 {
+    font-size: 50px;
+    margin-bottom: 0;
+  }
+
+  .header-content {
+    z-index: 9999;
+    width: 100%;
+    text-align: center;
+  }
+  .header-content h1{
+    font-size:50px;
+    margin-bottom:0;
+  }
+  .header-content p{
+    font-size:1.5rem;
+    display: block;
+    padding-bottom: 2rem;
+  }
+
+  .btn{
+    background: #4286f4;
+    color: #fff;
+    font-size:1.2rem;
+    padding: 1rem 2rem;
+    text-decoration: none;
+  }
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
