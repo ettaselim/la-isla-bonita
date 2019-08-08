@@ -2,13 +2,13 @@
     background: #FFF;
     z-index: 1000;
     width: 80%;
-    opacity: 0.7;
+    opacity: 0.9;
     top: 0;
 }
 
 .banner {
   position:relative;
-  size: 60%;
+  size: 100%;
 }
 
 .logotext {
@@ -26,11 +26,51 @@
   width: 20%%;
 }
 
-font {
-  color: white;
-  background-color: red;
+.col-xl {
+  margin: auto;
+  width: 100%;
 }
 
-.col- {
-  margin-left: 70px;
+font {
+  color: white;
+  background: rgba(193, 66, 66, 0.6);
 }
+
+p{
+  text-align: justify;
+}
+
+.image-andalucia {
+    background-image: url("https://s3.amazonaws.com/cdn.pura-aventura.com/images/hero/spain-andalucia-seville-cathedral-sunset.jpg?1435155472");
+    background-size: cover;
+    height: 300px;
+    border-radius: 3px;
+}
+
+.image-madrid {
+    background-image: url("https://themomentkeepers.com/wp-content/uploads/2017/06/TMK-madrid-17.jpg");
+    background-size: cover;
+    height: 300px;
+    border-radius: 3px;
+}
+
+.image-salamanca {
+    background-image: url("https://synergy.booking-channel.com/api/hotels/1081/medias/8");
+    background-size: cover;
+    height: 300px;
+    border-radius: 3px;
+}
+
+.image-valencia {
+    background-image: url("https://i1.wp.com/brucewpeterson.com/wp-content/uploads/2014/07/Valencia23.jpg");
+    background-size: cover;
+    height: 300px;
+    border-radius: 3px;
+}
+
+
+.container {
+    padding: 10px 30px 10px 30px;
+    margin: 10px auto;
+    box-shadow: 0 0 30px rgba(150, 150, 150, 0.25);
+    border-radius: 6px;
