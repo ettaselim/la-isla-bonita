@@ -33,7 +33,7 @@
 
 font {
   color: white;
-  background: rgba(193, 66, 66, 0.6);
+  background: rgba(119, 63, 191, 0.6);
 }
 
 p{
@@ -68,6 +68,33 @@ p{
     border-radius: 3px;
 }
 
+.image-lima {
+    background-image: url("");
+    background-size: cover;
+    height: 300px;
+    border-radius: 3px;
+}
+
+.image-medellin {
+    background-image: url("");
+    background-size: cover;
+    height: 300px;
+    border-radius: 3px;
+}
+
+.image-sanjose {
+    background-image: url("");
+    background-size: cover;
+    height: 300px;
+    border-radius: 3px;
+}
+
+.image- {
+    background-image: url("");
+    background-size: cover;
+    height: 300px;
+    border-radius: 3px;
+  }
 
 .container {
     padding: 10px 30px 10px 30px;
