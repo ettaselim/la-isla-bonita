@@ -33,41 +33,40 @@
 
 font {
   color: white;
-  background: rgba(193, 66, 66, 0.6);
+  background: rgba(119, 63, 191, 0.6);
 }
 
 p{
   text-align: justify;
 }
 
-.image-andalucia {
-    background-image: url("https://s3.amazonaws.com/cdn.pura-aventura.com/images/hero/spain-andalucia-seville-cathedral-sunset.jpg?1435155472");
+.image-lima {
+    background-image: url("http://designertraveler.com/wp-content/uploads/2017/01/Peru_Lima_Downtown_2.jpg");
     background-size: cover;
     height: 300px;
     border-radius: 3px;
 }
 
-.image-madrid {
-    background-image: url("https://themomentkeepers.com/wp-content/uploads/2017/06/TMK-madrid-17.jpg");
+.image-medellin {
+    background-image: url("https://static1.squarespace.com/static/59d1d40c59cc681f4ae21477/t/5a14a8c8e4966b1342346944/1518397135912/shutterstock_mde_752968243.jpg?format=1500w");
     background-size: cover;
     height: 300px;
     border-radius: 3px;
 }
 
-.image-salamanca {
-    background-image: url("https://synergy.booking-channel.com/api/hotels/1081/medias/8");
+.image-antigua {
+    background-image: url("https://www.elantigueno.com/wp-content/uploads/2017/07/portada.jpg");
     background-size: cover;
     height: 300px;
     border-radius: 3px;
 }
 
-.image-valencia {
-    background-image: url("https://i1.wp.com/brucewpeterson.com/wp-content/uploads/2014/07/Valencia23.jpg");
+.image-buenosaires {
+    background-image: url("http://static1.squarespace.com/static/5c0c1ad9cc8fed064d7d9236/5c1f6dbcfb28054ee08eee91/5c1f6e20fb28054ee08efeed/1550079673564/Self+guided+walk+of+avenida+de+mayo+buenos+aires+header.jpg?format=1500w");
     background-size: cover;
     height: 300px;
     border-radius: 3px;
-}
-
+  }
 
 .container {
     padding: 10px 30px 10px 30px;
