@@ -14,19 +14,31 @@ body {
 }
 
 .facts1{
-  font-family: 'Lato', sans-serif;
+  font-family: 'Farro', sans-serif;
   text-align: center;
   font-size: 50px;
 }
 
 .facts2{
-  font-family: 'Lato', sans-serif;
+  font-family: 'Farro', sans-serif;
   text-align: center;
   font-size: 50px;
 }
 
 .facts3{
-  font-family: 'Lato', sans-serif;
+  font-family: 'Farro', sans-serif;
   text-align: center;
   font-size: 50px;
 }
+
+.mb-0{
+  font-family: 'Farro', sans-serif;
+}
+
+.mt-0{
+  font-family: 'Farro', sans-serif;
+}
+
+.mc-0{
+    font-family: 'Farro', sans-serif
+]
