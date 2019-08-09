@@ -1,5 +1,4 @@
-.navbar {
-    background: #FFF;
+nav {
     z-index: 1000;
     width: 80%;
     opacity: 0.9;
@@ -46,8 +45,6 @@ p{
     height: 300px;
     border-radius: 3px;
 }
-<<<<<<< HEAD
-=======
 
 .image-madrid {
     background-image: url("https://themomentkeepers.com/wp-content/uploads/2017/06/TMK-madrid-17.jpg");
