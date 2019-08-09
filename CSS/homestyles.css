@@ -6,6 +6,12 @@ body {
   text-align: center;
 }
 
+.container {
+    padding: 10px 30px 10px 30px;
+    margin: 10px auto;
+    box-shadow: 0 0 30px rgba(150, 150, 150, 0.25);
+    border-radius: 6px;
+}
 
 .facts1{
   font-family: 'Lato', sans-serif;
