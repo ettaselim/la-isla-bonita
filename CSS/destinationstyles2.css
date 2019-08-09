@@ -1,0 +1,75 @@
+.navbar {
+    background: #FFF;
+    z-index: 1000;
+    width: 80%;
+    opacity: 0.9;
+    top: 0;
+}
+
+.banner {
+  position:relative;
+  size: 100%;
+}
+
+.logotext {
+  position: absolute;
+  margin: auto;
+  display: block;
+  text-align: center;
+  color; white;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%%;
+}
+
+.col-xl {
+  margin: auto;
+  width: 100%;
+}
+
+font {
+  color: white;
+  background: rgba(119, 63, 191, 0.6);
+}
+
+p{
+  text-align: justify;
+}
+
+.image-lima {
+    background-image: url("http://designertraveler.com/wp-content/uploads/2017/01/Peru_Lima_Downtown_2.jpg");
+    background-size: cover;
+    height: 300px;
+    border-radius: 3px;
+}
+
+.image-medellin {
+    background-image: url("https://static1.squarespace.com/static/59d1d40c59cc681f4ae21477/t/5a14a8c8e4966b1342346944/1518397135912/shutterstock_mde_752968243.jpg?format=1500w");
+    background-size: cover;
+    height: 300px;
+    border-radius: 3px;
+}
+
+.image-antigua {
+    background-image: url("https://www.elantigueno.com/wp-content/uploads/2017/07/portada.jpg");
+    background-size: cover;
+    height: 300px;
+    border-radius: 3px;
+}
+
+.image-buenosaires {
+    background-image: url("http://static1.squarespace.com/static/5c0c1ad9cc8fed064d7d9236/5c1f6dbcfb28054ee08eee91/5c1f6e20fb28054ee08efeed/1550079673564/Self+guided+walk+of+avenida+de+mayo+buenos+aires+header.jpg?format=1500w");
+    background-size: cover;
+    height: 300px;
+    border-radius: 3px;
+  }
+
+.container {
+    padding: 10px 30px 10px 30px;
+    margin: 10px auto;
+    box-shadow: 0 0 30px rgba(150, 150, 150, 0.25);
+    border-radius: 6px;
